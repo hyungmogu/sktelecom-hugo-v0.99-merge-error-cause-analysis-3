@@ -19,7 +19,7 @@
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ end }}
 {{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" data-test="test">
 {{ end -}}
 {{ partialCached "favicons.html" . }}
 {{ partial "seo_schema" . }}
