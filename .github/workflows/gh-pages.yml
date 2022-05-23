@@ -12,7 +12,7 @@
   # A workflow run is made up of one or more jobs that can run sequentially or in parallel
   jobs:
     # This workflow contains a single job called "build"
-    deploy:
+    deploy-2:
       # The type of runner that the job will run on
       runs-on: ubuntu-latest
 
@@ -45,3 +45,5 @@
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
             publish_dir: ./public
+
+#test3
