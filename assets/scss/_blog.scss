@@ -11,7 +11,7 @@
     margin: 0 0 32px 0;}
 
 .td-blog-list {
-    display: grid;
+    display: block;
     row-gap: 40px;
 
     &:not(:last-of-type) {
